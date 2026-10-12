@@ -1,0 +1,30 @@
+# Кэш Python и скомпилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# Файлы сборки PyInstaller
+build/
+dist/
+*.spec
+
+# Временные файлы и отчеты программы CapsuleCounter
+*.capsules.tmp
+Результаты-*/
+packaged-test.*
+packaged-histogram.*
+packaged-area.*
+
+# Настройки IDE и редакторов кода
+.vscode/
+.idea/
+*.swp
+
+# Системные файлы (если кто-то откроет на Mac или Windows)
+.DS_Store
+Thumbs.db
