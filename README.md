@@ -30,12 +30,3 @@
 ### Вариант 1: Использование готового .exe
 1. Перейдите в раздел [Releases](../../releases) и скачайте `CapsuleCounter-v1.6.exe`.
 2. Запустите скачанный файл (программа работает автономно).
-
-### Вариант 2: Запуск из исходного кода
-Клонируйте репозиторий и установите зависимости:
-
-```bash
-git clone [https://github.com/your-username/CapsuleCounter.git](https://github.com/your-username/CapsuleCounter.git)
-cd CapsuleCounter/source
-pip install -r requirements.txt
-python app.py
